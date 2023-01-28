@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ImageText">
+
+
+    <item
+        android:id="@+id/item_copy"
+        android:orderInCategory="10"
+        android:title="@string/Copy"
+        android:icon="@drawable/ic_content_copy_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_share2"
+
+        android:title="@string/Share"
+        android:icon="@drawable/ic_share_24dp"
+        app:showAsAction="always" />
+</menu>

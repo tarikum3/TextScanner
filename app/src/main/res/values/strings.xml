@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">OCR Batch Scanner</string>
+    <string name="folderName">Folder Name</string>
+    <string name="empty">No Images on this device</string>
+    <string name="appName2">SimpleGallery</string>
+    <string name="selectalbum">Select album</string>
+    <string name="Share">Share</string>
+    <string name="Copy">Copy</string>
+    <string name="Edit">Edit</string>
+    <string name="display_name">display_name</string>
+    <string name="value">value</string>
+    <string name="cancel">cancel</string>
+    <string name="save">save</string>
+    <string name="dialogtitle">Save File</string>
+    <string name="done">done</string>
+    <string name="savefile">save</string>
+    <string name="camera">camera</string>
+    <string name="gallery">gallery</string>
+
+    <string name="add_text">Add Text</string>
+    <string name="draw_over">Draw</string>
+    <string name="add_emoji">Add Emoji</string>
+    <string name="rotate_crop">Rotate/Crop</string>
+    <string name="transition_image">transition:IMAGE</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="rotate_right">Rotate Right</string>
+    <string name="rotate_left">Rotate Left</string>
+    <string name="crop_image">crop</string>
+    <string name="saveocr">Save</string>
+</resources>

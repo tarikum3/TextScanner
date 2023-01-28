@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+
+    <item
+        android:id="@+id/gallery"
+
+        android:orderInCategory="10"
+        android:title="Selected (0)"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/camera"
+        android:orderInCategory="20"
+        android:title="@string/camera"
+        android:icon="@drawable/ic_camera_alt_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/saveOcr"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:orderInCategory="10"
+        android:title="@string/saveocr"
+
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/item_share"
+        android:orderInCategory="10"
+        android:title="@string/Share"
+        android:icon="@drawable/ic_share_24dp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_delete"
+        android:orderInCategory="10"
+        android:icon="@drawable/ic_delete_24dp"
+        android:title="Delete"
+        app:showAsAction="never" />
+</menu>
